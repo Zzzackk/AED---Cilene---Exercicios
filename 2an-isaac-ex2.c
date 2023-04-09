@@ -5,6 +5,7 @@ Isaac Vono Rodrigues | 2AN | 30/03/2023
 AED2 | Lista de Exercicios | Exercicio 2
 
 *******************************************************************************/
+
 #include <stdio.h>
 
 double divisao(int n1, int n2)
