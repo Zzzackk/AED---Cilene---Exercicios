@@ -5,6 +5,7 @@ Isaac Vono Rodrigues | 2AN | 30/03/2023
 AED2 | Lista de Exercicios | Exercicio 5
 
 *******************************************************************************/
+
 #include <stdio.h>
 
 int entreAeZ(char c) {
