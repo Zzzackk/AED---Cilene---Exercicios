@@ -5,6 +5,7 @@ Isaac Vono Rodrigues | 2AN | 30/03/2023
 AED2 | Lista de Exercicios | Exercicio 3
 
 *******************************************************************************/
+
 #include <stdio.h>
 #include <math.h>
 
