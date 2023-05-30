@@ -1,0 +1,31 @@
+/******************************************************************************
+
+Isaac Vono Rodrigues - 2AN - AED II - Lista 01 - Ex 02 - 15/02/2023
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int total, nulos, brancos, validos;
+    printf("Digite o numero total de votos: \n");
+    scanf("%d", &total);
+
+    printf("Digite o numero de votos nuloss: \n");
+    scanf("%d", &nulos);
+
+    printf("Digite o numero de votos brancoss: \n");
+    scanf("%d", &brancos);
+
+    printf("Digite o numero de votos validoss: \n");
+    scanf("%d", &validos);
+
+    validos = total - nulos - brancos;
+
+    printf("Percentual de nuloss = %.1f\n", nulos * 1.0 / total * 100);
+    printf("Percentual de brancoss = %.1f\n", brancos * 1.0 / total * 100);
+    printf("Percentual de validoss = %.1f\n", validos * 1.0 / total * 100);
+
+}
+

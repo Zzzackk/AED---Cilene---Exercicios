@@ -1,0 +1,36 @@
+/******************************************************************************
+
+Isaac Vono Rodrigues - 2AN - AED II - Lista 02 - Ex 02 - 01/03/2023
+
+*******************************************************************************/
+
+#include <stdio.h>
+#define TM 8
+
+void main()
+{
+    int n[TM], pos1, pos2, sum;
+    for (int i = 0; i < TM; i++) {
+        printf("Digite um valor n[%d]: \n", i);
+        scanf("%d", &n[i]);
+    }
+
+    printf("Digite o valor da primeira posição: \n");
+    scanf("%d", &pos1);
+    while (pos1 < 0 || pos1 >= TM) {
+        printf("Valor inválido. Digite outro valor: \n");
+        scanf("%d", &pos1);
+    }
+
+    printf("Digite o valor da segunda posição: \n");
+    scanf("%d", &pos2);
+    while (pos2 < 0 || pos2 >= TM) {
+        printf("Valor inválido. Digite outro valor: \n");
+        scanf("%d", &pos2);
+    }
+
+    sum = n[pos1] + n[pos2];
+    printf("A soma dos dois valores é: %d", sum);
+}
+
+
